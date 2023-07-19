@@ -94,7 +94,7 @@
     </head>
     <body style="height: 7000px">
         <header class="header">
-            <div class="container">
+            <div class="container-md">
                 <!-- Header-top -->
                 <section class="header-top">
                     <!-- Logo -->
@@ -179,7 +179,7 @@
                         <div class="heading-box">
                             <h1 class="heading lv1">
                                 Make
-                                <strong class="attention">
+                                <strong class="attention attention-b-a">
                                     <span class="b-a">Management</span>
                                 </strong>
                                 Way More Easier Than Ever
@@ -207,7 +207,7 @@
 
                 <!-- Dash Board -->
                 <section class="header-board">
-                    <div class="header-board__menu">
+                    <section class="header-board__menu">
                         <a href="#!" class="board__icon">
                             <img src="./assets/icon/menu.svg" alt="" />
                         </a>
@@ -215,9 +215,9 @@
                             <img src="./assets/icon/dashboard.svg" alt="" />
                         </a>
                         <span class="header-board__title">Dashboard</span>
-                    </div>
+                    </section>
 
-                    <div class="header-board__collect">
+                    <section class="header-board__collect">
                         <span class="header-board__title collect-active">
                             Collections
                         </span>
@@ -362,7 +362,9 @@
                                     </div>
 
                                     <section class="board-main__right--body">
-                                        <h3 class="heading lv3">Daily Task.</h3>
+                                        <span class="heading sp3 m-sp3">
+                                            Daily Task.
+                                        </span>
                                         <video
                                             class="video"
                                             width="167px"
@@ -378,10 +380,661 @@
                                 </section>
                             </section>
                         </main>
-                    </div>
-                    <div class="ellip-154"></div>
+                    </section>
+                    <div class="ellip ellip-154"></div>
+
+                    <section class="board__task--collection">
+                        <div class="board__task--collection--top">
+                            <span> Collections </span>
+                            <div class="etc etc-wrap">
+                                <div class="etc-1"></div>
+                                <div class="etc-1"></div>
+                                <div class="etc-1"></div>
+                            </div>
+                        </div>
+                        <div class="board__task--list">
+                            <div class="board__task--item">
+                                <div class="board__task--item--flex">
+                                    <div
+                                        class="board__task--icon bg-school"
+                                    ></div>
+                                    <div class="board__task--name">
+                                        <span class="heading sp3">School</span>
+                                        <p class="board__task--desc">
+                                            4 task plus tomorrow.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="board__task--complete">
+                                    <div
+                                        class="board__task--completed bg-lg-sc"
+                                    ></div>
+                                    <span> 1/3 </span>
+                                </div>
+                            </div>
+
+                            <div class="board__task--item">
+                                <div class="board__task--item--flex">
+                                    <div
+                                        class="board__task--icon bg-personal"
+                                    ></div>
+                                    <div class="board__task--name">
+                                        <span class="heading sp3"
+                                            >Personal</span
+                                        >
+                                        <p class="board__task--desc">
+                                            1 task plus today.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="board__task--complete">
+                                    <div
+                                        class="board__task--completed bg-lg-pe"
+                                    ></div>
+                                    <span> 7/10 </span>
+                                </div>
+                            </div>
+
+                            <div class="board__task--item">
+                                <div class="board__task--item--flex">
+                                    <div
+                                        class="board__task--icon bg-design"
+                                    ></div>
+                                    <div class="board__task--name">
+                                        <span class="heading sp3">Design</span>
+                                        <p class="board__task--desc">
+                                            3 task plus next week.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="board__task--complete">
+                                    <div
+                                        class="board__task--completed bg-lg-dg"
+                                    ></div>
+                                    <span> 0/3 </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ellip ellip-89"></div>
+                    </section>
                 </section>
             </div>
         </header>
+
+        <main class="main">
+            <!-- Service -->
+            <div class="container">
+                <section class="service">
+                    <div class="service-all-cards">
+                        <div class="service__card">
+                            <div class="service__card--icon bg-rp">
+                                <img
+                                    src="./assets/icon/Reporticon.svg"
+                                    alt=""
+                                    class="service__card--img"
+                                />
+                            </div>
+                            <h3 class="service__card--title title lv3">
+                                Structured Reports
+                            </h3>
+                            <p class="service__card--desc">
+                                Sed rhoncus sit sed tellus donec lorem lectus
+                                nunc, ornare
+                            </p>
+                        </div>
+
+                        <div class="service__card">
+                            <div class="service__card--icon bg-cl">
+                                <img
+                                    src="./assets/icon/cloudicon.svg"
+                                    alt=""
+                                    class="service__card--img"
+                                />
+                            </div>
+                            <h3 class="service__card--title title lv3">
+                                Cloud System
+                            </h3>
+                            <p class="service__card--desc">
+                                Sed rhoncus sit sed tellus donec lorem lectus
+                                nunc, ornare
+                            </p>
+                        </div>
+
+                        <div class="service__card">
+                            <div class="service__card--icon bg-sp">
+                                <img
+                                    src="./assets/icon/supporticon.svg"
+                                    alt=""
+                                    class="service__card--img"
+                                />
+                            </div>
+                            <h3 class="service__card--title title lv3">
+                                24/7 Support
+                            </h3>
+                            <p class="service__card--desc">
+                                Sed rhoncus sit sed tellus donec lorem lectus
+                                nunc, ornare
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Daily Task -->
+            <div class="container-l">
+                <section class="daily-task">
+                    <section class="daily-task__info">
+                        <h2 class="title lv2 daily-task__title">
+                            Okay, <strong class="attention">Let’s</strong> see
+                            D’task in numbers
+                        </h2>
+                        <p class="daily-task__desc">
+                            Powering a productive team means using a powerful
+                            tool (and plenty of snacks). From meetings and
+                            projects to events and goal setting, D'taak
+                            intuitive features give any team the ability to
+                            quickly set up and customize workflows for just
+                            about anything
+                        </p>
+                        <div class="daily-task__pagination">
+                            <div class="task-pag"></div>
+                            <div class="task-pag task-pag-active"></div>
+                            <div class="task-pag"></div>
+                        </div>
+                        <div class="daily-task__countdown--list">
+                            <div class="daily-task__countdown--item">
+                                <span class="daily-task__countdown--time">
+                                    12M
+                                </span>
+                                <span class="daily-task__countdown--desc">
+                                    Support
+                                </span>
+                            </div>
+
+                            <div class="daily-task__countdown--item">
+                                <span class="daily-task__countdown--time">
+                                    16
+                                </span>
+                                <span class="daily-task__countdown--desc"
+                                    >Active User
+                                </span>
+                            </div>
+
+                            <div class="daily-task__countdown--item">
+                                <span class="daily-task__countdown--time">
+                                    7/24
+                                </span>
+                                <span class="daily-task__countdown--desc">
+                                    Languages
+                                </span>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="daily-task__action">
+                        <div class="rectangles">
+                            <div class="rectangle"></div>
+                            <div class="rectangle"></div>
+                            <div class="rectangle"></div>
+                            <div class="rectangle"></div>
+                            <div class="rectangle"></div>
+                            <div class="rectangle"></div>
+                        </div>
+                        <div class="circles-455">
+                            <div class="circle-336">
+                                <div class="circle-135"></div>
+                            </div>
+                        </div>
+                        <div class="daily-task__action--wrap dtaw-pa-bl">
+                            <div class="circle-32 btn-play-action">
+                                <img src="./assets/icon/play.svg" alt="" />
+                            </div>
+                            <label
+                                for=""
+                                class="daily-task__action--name ln-dtask"
+                            >
+                                D’ task
+                            </label>
+                            <div class="daily-task__action--avt">
+                                <img
+                                    src="./assets/avatar/alex-suprun.jpg"
+                                    alt=""
+                                    class="circle-32 daily-task__action--img"
+                                />
+                                <img
+                                    src="./assets/avatar/michael-dam.jpg"
+                                    alt=""
+                                    class="circle-32 daily-task__action--img ml-avt"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="daily-task__action--wrap dtaw-pa-tl">
+                            <label
+                                for=""
+                                class="daily-task__action--name ln-os"
+                            >
+                                Online Support
+                            </label>
+                            <div class="circle-32 btn-play-action">
+                                <img src="./assets/icon/play.svg" alt="" />
+                            </div>
+                        </div>
+
+                        <div class="daily-task__action--wrap dtaw-pa-tr">
+                            <label
+                                for=""
+                                class="daily-task__action--name ln-ex"
+                            >
+                                Exercitation
+                            </label>
+                            <div class="circle-32 btn-play-action">
+                                <img src="./assets/icon/exercise.svg" alt="" />
+                            </div>
+                        </div>
+
+                        <div class="daily-task__action--wrap dtaw-pa-br">
+                            <label for="" class="daily-task__action--name">
+                                Design
+                            </label>
+                            <div class="circle-32 btn-play-action">
+                                <img
+                                    src="./assets/icon/actionicon.svg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </div>
+
+            <!-- Feature -->
+            <div class="container-f">
+                <section class="feature">
+                    <section class="task-chart">
+                        <div class="task-chart__lines">
+                            <div class="task-chart__line"></div>
+                            <div class="task-chart__line"></div>
+                        </div>
+                        <div class="tastask-chart_times">
+                            <span class="task-chart__time">9 am</span>
+                            <span class="task-chart__time">10 am</span>
+                            <span class="task-chart__time">11 am</span>
+                            <span class="task-chart__time">12 am</span>
+                        </div>
+                        <div class="task-chart__circle"></div>
+                        <div class="task-chart__button w-btn-ui">
+                            <img
+                                src="./assets/avatar/michael-dam.jpg"
+                                alt=""
+                                class="task-chart__button--img"
+                            />
+                            <span class="task-chart__button--info">
+                                Component UI
+                            </span>
+                        </div>
+                        <div class="task-chart__button w-btn-lp">
+                            <span class="task-chart__button--info ln-lp">
+                                Hi-Fidelity Landing Page
+                            </span>
+                        </div>
+                        <div class="task-chart__button w-btn-wf">
+                            <span class="task-chart__button--info ln-wf">
+                                Create lo-Fidelity Wireframe
+                            </span>
+                        </div>
+                        <div class="task-chart__button w-btn-mess">
+                            <span class="task-chart__button--mess">
+                                14% Churn Rish
+                            </span>
+                        </div>
+                    </section>
+                    <section class="task-feature">
+                        <h2 class="title lv2 task-feature__heading">
+                            Features to help your
+                            <strong class="task-feature__attention">
+                                team succeed
+                            </strong>
+                        </h2>
+                        <div class="task-feature__list">
+                            <div class="task-feature__item">
+                                <div
+                                    class="task-feature__box bg-box-choose"
+                                ></div>
+                                <div class="task-feature__content">
+                                    <h3 class="title task-feature__name">
+                                        Choose a view
+                                    </h3>
+                                    <p class="task-feature__desc">
+                                        Nullam dignssim mauris, dictumst
+                                        quisque.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="task-feature__item">
+                                <div
+                                    class="task-feature__box bg-box-meet"
+                                ></div>
+                                <div class="task-feature__content">
+                                    <h3 class="title task-feature__name">
+                                        Meet your new butler
+                                    </h3>
+                                    <p class="task-feature__desc">
+                                        Nullam dignssim mauris, dictumst
+                                        quisque.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="task-feature__item order-4">
+                                <div
+                                    class="task-feature__box bg-box-dive"
+                                ></div>
+                                <div class="task-feature__content">
+                                    <h3 class="title task-feature__name">
+                                        Dive into the details
+                                    </h3>
+                                    <p class="task-feature__desc">
+                                        Nullam dignssim mauris, dictumst
+                                        quisque.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="task-feature__item order-3">
+                                <div
+                                    class="task-feature__box bg-box-power"
+                                ></div>
+                                <div class="task-feature__content">
+                                    <h3 class="title task-feature__name">
+                                        Power up
+                                    </h3>
+                                    <p class="task-feature__desc">
+                                        Nullam dignssim mauris, dictumst
+                                        quisque.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </div>
+
+            <!-- About -->
+            <div class="container">
+                <section class="about">
+                    <div class="about-content">
+                        <h2 class="title lv2 about-content__heading">
+                            Integrated
+                            <strong class="attention">designed</strong> for
+                            product teams
+                        </h2>
+                        <div class="about-content__desc-wrap">
+                            <p class="about-content__desc">
+                                Exepteur sint occaecat cupidatat non proident,
+                                sunt in culpa que official deserunt mollit
+                                laborum - semper quis lectus nulla.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="about-btns">
+                        <div class="about-btn">
+                            <img
+                                src="./assets/icon/actionicon-1.svg"
+                                alt=""
+                                class="about-btn__img"
+                            />
+                            <label for="" class="about-btn__action">
+                                Quick action
+                            </label>
+                        </div>
+                        <div class="about-btn">
+                            <img
+                                src="./assets/icon/actionicon-2.svg"
+                                alt=""
+                                class="about-btn__img"
+                            />
+                            <label for="" class="about-btn__action">
+                                Quick action
+                            </label>
+                        </div>
+                        <div class="about-btn">
+                            <img
+                                src="./assets/icon/actionicon.svg"
+                                alt=""
+                                class="about-btn__img"
+                            />
+                            <label for="" class="about-btn__action">
+                                Quick action
+                            </label>
+                        </div>
+                        <div class="about-btn">
+                            <img
+                                src="./assets/icon/actionicon-4.svg"
+                                alt=""
+                                class="about-btn__img"
+                            />
+                            <label for="" class="about-btn__action">
+                                Quick action
+                            </label>
+                        </div>
+                        <div class="about-btn">
+                            <img
+                                src="./assets/icon/actionicon-5.svg"
+                                alt=""
+                                class="about-btn__img"
+                            />
+                            <label for="" class="about-btn__action">
+                                Quick action
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="about-task">
+                        <div class="about-task__idea about-task-br-bg">
+                            <div class="about-task__idea--mg">
+                                <h3 class="title about-task__idea--heading">
+                                    Dashboard Desktop Design Idea
+                                </h3>
+
+                                <!-- Idea 1 -->
+                                <div class="about-task__idea--wrap">
+                                    <div class="about-task__idea--depart">
+                                        <input
+                                            class="idea-checked"
+                                            type="checkbox"
+                                            id="create-design"
+                                        />
+                                        <label
+                                            class="about-task__idea--team"
+                                            for="create-design"
+                                        >
+                                            Create Wireframe
+                                        </label>
+                                        <span class="about-task__idea--team-sp">
+                                            #design
+                                        </span>
+                                    </div>
+                                    <div class="about-task__idea--team-avt">
+                                        <img
+                                            src="./assets/avatar/avt1.jpg"
+                                            alt=""
+                                            class="avt-team circle-32 ml-avt"
+                                        />
+                                        <img
+                                            src="./assets/avatar/avt2.jpg"
+                                            alt=""
+                                            class="avt-team circle-32 ml-avt"
+                                        />
+                                        <img
+                                            src="./assets/avatar/avt3.jpg"
+                                            alt=""
+                                            class="avt-team circle-32 ml-avt"
+                                        />
+                                    </div>
+                                </div>
+
+                                <!-- Idea 2 -->
+                                <div class="about-task__idea--wrap">
+                                    <div class="about-task__idea--depart">
+                                        <input
+                                            class="idea-checked"
+                                            type="checkbox"
+                                            id="create-hi"
+                                            checked
+                                        />
+                                        <label
+                                            class="about-task__idea--team"
+                                            for="create-hi"
+                                        >
+                                            HI-Fidelity
+                                        </label>
+                                        <span class="about-task__idea--team-sp">
+                                            #design
+                                        </span>
+                                    </div>
+                                    <div class="about-task__idea--team-avt">
+                                        <img
+                                            src="./assets/avatar/avt4.jpg"
+                                            alt=""
+                                            class="avt-team circle-32 ml-avt"
+                                        />
+                                        <img
+                                            src="./assets/avatar/avt5.jpg"
+                                            alt=""
+                                            class="avt-team circle-32 ml-avt"
+                                        />
+                                        <img
+                                            src="./assets/avatar/avt6.jpg"
+                                            alt=""
+                                            class="avt-team circle-32 ml-avt"
+                                        />
+                                    </div>
+                                </div>
+
+                                <!-- Idea 3 -->
+                                <div class="about-task__idea--wrap">
+                                    <div class="about-task__idea--depart">
+                                        <input
+                                            class="idea-checked"
+                                            type="checkbox"
+                                            id="create-component"
+                                        />
+                                        <label
+                                            class="about-task__idea--team"
+                                            for="create-component"
+                                        >
+                                            Build Compnent
+                                        </label>
+                                        <span class="about-task__idea--team-sp">
+                                            #development
+                                        </span>
+                                    </div>
+                                    <div class="about-task__idea--team-avt">
+                                        <img
+                                            src="./assets/avatar/avt7.jpg"
+                                            alt=""
+                                            class="avt-team circle-32 ml-avt"
+                                        />
+                                        <img
+                                            src="./assets/avatar/alex-suprun.jpg"
+                                            alt=""
+                                            class="avt-team circle-32 ml-avt"
+                                        />
+                                        <img
+                                            src="./assets/avatar/michael-dam.jpg"
+                                            alt=""
+                                            class="avt-team circle-32 ml-avt"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="about-task--pagination p-i-p">
+                                <div class="pag-dot"></div>
+                                <div class="pag-dot"></div>
+                                <div class="pag-dot"></div>
+                            </div>
+                        </div>
+                        <div class="about-task__design">
+                            <div
+                                class="about-task__design--top about-task-br-bg"
+                            >
+                                <div class="design--top__check"></div>
+                                <div class="design--top__head">
+                                    <h3 class="title design--top__heading">
+                                        Design Daily task
+                                    </h3>
+                                    <p class="design--top__desc">
+                                        4 task plus tomorrow.
+                                    </p>
+                                </div>
+                                <div class="design--top__complete">
+                                    <div class="design--top__nocompleted"></div>
+                                    <span class="design--top__completed">
+                                        1/3
+                                    </span>
+                                </div>
+                                <div class="about-task--pagination p-d-p">
+                                    <div class="pag-dot"></div>
+                                    <div class="pag-dot"></div>
+                                    <div class="pag-dot"></div>
+                                </div>
+                            </div>
+                            <div
+                                class="about-task__design--under about-task-br-bg"
+                            >
+                                <img
+                                    src="./assets/icon/Element.svg"
+                                    alt=""
+                                    class="task--under__img"
+                                />
+
+                                <div class="task--under__chart">
+                                    <h3 class="title task--under__chart--name">
+                                        D’task
+                                    </h3>
+                                    <img
+                                        src="./assets/icon/Weddit.svg"
+                                        alt=""
+                                        class="title task--under__chart--weddit"
+                                    />
+                                    <div class="task--under__chart--actives">
+                                        <div class="task--under__chart--active">
+                                            <span class="task--under__chart--o">
+                                                Online
+                                            </span>
+                                            <span
+                                                class="task--under__chart--user user-on"
+                                            >
+                                                179 users
+                                            </span>
+                                        </div>
+                                        <div class="task--under__chart--active">
+                                            <span class="task--under__chart--o">
+                                                Offline
+                                            </span>
+                                            <span
+                                                class="task--under__chart--user user-off"
+                                            >
+                                                394 users
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="about-task--pagination p-t-p">
+                                    <div class="pag-dot"></div>
+                                    <div class="pag-dot"></div>
+                                    <div class="pag-dot"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-task__team about-task-br-bg"></div>
+                    </div>
+                </section>
+            </div>
+        </main>
     </body>
 </html>
