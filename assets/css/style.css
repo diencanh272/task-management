@@ -227,7 +227,7 @@ a {
 }
 
 .header-top {
-    padding: 30px;
+    padding: 30px 70px;
     width: 100%;
     display: flex;
     justify-content: space-between;
