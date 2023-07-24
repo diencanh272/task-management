@@ -1897,6 +1897,11 @@ a {
     background-color: #282c30;
 }
 
+.testimonials-item:hover .testimonials-item__comma {
+    rotate: 180deg;
+    fill: #0cce84;
+}
+
 .testimonials-item:hover .testimonials-item__share {
     color: #bcc6d0;
 }
@@ -1912,6 +1917,8 @@ a {
 .testimonials-item__comma {
     display: flex;
     margin: 30px 80px 0 auto;
+    fill: #282c30;
+    transition: 0.3s;
 }
 
 .testimonials-item__share {
@@ -1957,6 +1964,10 @@ a {
 .testimonial-pagination-r {
     margin-left: 40px;
     transform: rotate(180deg);
+    cursor: pointer;
+}
+.testimonial-pagination-l {
+    cursor: pointer;
 }
 
 /* ****Footer***** */
